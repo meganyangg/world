@@ -2,50 +2,60 @@
 <html lang="en" dir="ltr">
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="orca.css>
+		<link rel="stylesheet" href="orca.css">
 		<script src="orca.js"></script>
 		<title>Orca</title>
 	</head>
 	<body>
 		<img id="background" src="background.jpeg" alt="Antarctic Desert"/>
-		<p>Quiz!</p>
-		<br>
-		
+		<div id="white">
+		<p id="title">Orca Quiz!</p>
+		</div>
+
+
+		<div id="question1">
 		<p>What's the oldest that orcas can live up to? <!-- answer is 90 -->
 			<br>
-			<label><input type = "radio" name = "course" value = "AP Bio">
+			<label><input type = "radio" name = "years" value = "Sixty">
 				60 years</label>
 				<br>
-			<label><input type = "radio" name = "course" value = "AP Calc AB">
+			<label><input type = "radio" name = "years" value = "Seventy">
 				70 years</label>
 				<br>
-			<label><input type = "radio" name = "course" value = "Myth/Folklore">
+			<label><input type = "radio" name = "years" value = "Eighty">
 				80 years</label>
 				<br>
-			<label><input type = "radio" name = "course" value = "AP Physics">
+			<label><input type = "radio" name = "years" value = "Ninety">
 				90 years</label>
 		</p>
-		<br>
 
+		<button type="button" onclick="answerYears()">Submit</button>
+		<br><br>
+		<div id="result"></div>
+		</div>	
+
+
+		<div id="additionalInfo"></div>
+		
+		<div id="question2">
 		<p>Which of the following do orcas NOT eat? <!-- answer is algae -->
 			<br>
-			<label><input type = "radio" name = "course" value = "AP Bio">
+			<label><input type = "radio" name = "eat" value = "Sea Turtles">
 				Sea turtles</label>
 				<br>
-			<label><input type = "radio" name = "course" value = "AP Calc AB">
+			<label><input type = "radio" name = "eat" value = "Sharks">
 				Sharks</label>
 				<br>
-			<label><input type = "radio" name = "course" value = "Myth/Folklore">
+			<label><input type = "radio" name = "eat" value = "Algae">
 				Algae</label>
 				<br>
-			<label><input type = "radio" name = "course" value = "AP Physics">
+			<label><input type = "radio" name = "eat" value = "Squid">
 				Squid</label>
 		</p>
-		<br>
-      
-		<button type="button" onclick="displayRadioValue()">Submit</button>
+		<button type="button" onclick="answerEat()">Submit</button>
 		<br><br>
-      
-		<div id="result"></div>
+		<div id="result1"></div>
+		<br>
+		</div>
 	</body>
 </html>
