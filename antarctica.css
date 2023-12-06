@@ -10,22 +10,22 @@
 #penguin
 {
 	left: 300px;
-	top: 325px;
-	width: 150px;
+	top: 300px;
+	width: 200px;
 	z-index: 2;
 	position: absolute;
 }
-#seal
+#bluewhale
 {
-	left: 1250px;
-	top: 290px;
-	width: 200px;
+	left: 850px;
+	top: 450px;
+	width: 350px;
 	z-index: 2;
 	position: absolute;
 }
 #albatross
 {
-	left: 470px;
+	left: 700px;
 	top: 30px;
 	width: 220px;
 	z-index: 2;
@@ -50,5 +50,12 @@
 	border: 0px;
 	font-size: 32px;
 	z-index: 4;
+	position: absolute;
+}
+#back
+{
+	left: 10px;
+	top: 10px;
+	z-index: 20;
 	position: absolute;
 }
