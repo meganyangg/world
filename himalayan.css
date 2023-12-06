@@ -1,0 +1,49 @@
+#background
+{
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	position: absolute;
+}
+#back
+{
+	left: 10px;
+	top: 10px;
+	z-index: 2;
+	position: absolute;
+
+}
+#leopard
+{
+	left: 1000px;
+	top: 190px;
+	width: 300px;
+	z-index: 2;
+	position: absolute;
+}
+#marmot
+{
+	left: 800px;
+	top: 500px;
+	width: 300px;
+	z-index: 2;
+	position: absolute;
+}
+#redpanda
+{
+	left: 100px;
+	top: 510px;
+	width: 200px;
+	z-index: 2;
+	position: absolute;
+}
+#muskdeer
+{
+	left: 200px;
+	top: 280px;
+	width: 300px;
+	z-index: 2;
+	position: absolute;
+}
