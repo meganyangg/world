@@ -15,11 +15,11 @@
 	position: absolute;
 
 }
-#leopard
+#yak
 {
 	left: 1000px;
-	top: 190px;
-	width: 300px;
+	top: 150px;
+	width: 250px;
 	z-index: 2;
 	position: absolute;
 }
