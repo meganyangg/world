@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="jaguar.css">
+		<script src="jaguar.js"></script>
+		<title>Jaguar</title>
+	</head>
+	<body>
+		<p id="page">This is the Jaguar.</p>
+			
+		<button id="back" onclick="goToNextPage('amazon.html')">
+			Back
+		</button>	
+
+        <div id="quiz"></div>
+
+        <div id="question1">
+            <p>What ancient society deeply respected jaguars?  
+                <br>
+                <label><input type = "radio" name = "ancient" value = "Mesoamerican">
+                    Mesoamerican</label>
+                    <br>
+                <label><input type = "radio" name = "ancient" value = "Ancient India">
+                    Ancient India</label>
+                    <br>
+                <label><input type = "radio" name = "ancient" value = "Ancient Egpyt">
+                    Ancient Egpyt</label>
+                    <br>
+                <label><input type = "radio" name = "ancient" value = "All of the above">
+                    All of the above</label>
+            </p>
+            <button type="button" onclick="answerSociety()">Submit</button>
+            <div id="result1"></div>
+        </div>	
+
+
+        <div id="question2">
+            <p>What part of the world kills jaguars to make medicine?
+                <br>
+                <label><input type = "radio" name = "medicine" value = "Europe">
+                    Europe</label>
+                    <br>
+                <label><input type = "radio" name = "medicine" value = "South America">
+                    South America</label>
+                    <br>
+                <label><input type = "radio" name = "medicine" value = "North Africa">
+                    North Africa</label>
+                    <br>
+                <label><input type = "radio" name = "medicine" value = "East Asia">
+                    East Asia</label>
+            </p>
+            <button type="button" onclick="answerMedicine()">Submit</button>
+            <div id="result2"></div>
+        </div>
+
+        <div id="question3">
+            <p>Other than spotted, what colored jaguars can be found in the wild?
+                <br>
+                <label><input type = "radio" name = "color" value = "brown">
+                    Brown</label>
+                    <br>
+                <label><input type = "radio" name = "color" value = "black">
+                    Black</label>
+                    <br>
+                <label><input type = "radio" name = "color" value = "yellow">
+                    Yellow</label>
+                    <br>
+                <label><input type = "radio" name = "color" value = "orange">
+                    Orange</label>
+            </p>
+            <button type="button" onclick="answerColor()">Submit</button>
+            <div id="result3"></div>
+        </div>
+
+        <div id="question4">
+            <p>When did jaguars become endangered?
+                <br>
+                <label><input type = "radio" name = "year" value = "1834">
+                    1834</label>
+                    <br>
+                <label><input type = "radio" name = "year" value = "1977">
+                    1977</label>
+                    <br>
+                <label><input type = "radio" name = "year" value = "2001">
+                    2001</label>
+                    <br>
+                <label><input type = "radio" name = "year" value = "1903">
+                    1903</label>
+            </p>
+            <button type="button" onclick="answerYear()">Submit</button>
+            <div id="result4"></div>
+        </div>
+
+        <div id="question5">
+            <p>What does the name jaguar mean?
+                <br>
+                <label><input type = "radio" name = "meaning" value = "leap">
+                    'he who kills with one leap'</label>
+                    <br>
+                <label><input type = "radio" name = "meaning" value = "jumps">
+                    'he who jumps gracefully'</label>
+                    <br>
+                <label><input type = "radio" name = "meaning" value = "prowls">
+                    'he who prowls quietly'</label>
+                    <br>
+                <label><input type = "radio" name = "meaning" value = "kills">
+                    'he who kills quickly'</label>
+            </p>
+            <button type="button" onclick="answerName()">Submit</button>
+            <div id="result5"></div>
+        </div>
+
+        <div id="question6">
+            <p>How much do jaguar cubs weigh when they are born?
+                <br>
+                <label><input type = "radio" name = "weight" value = "0.3">
+                    0.3 lbs</label>
+                    <br>
+                <label><input type = "radio" name = "weight" value = "1.2">
+                    1.2 lbs</label>
+                    <br>
+                <label><input type = "radio" name = "weight" value = "3.4">
+                    3.4 lbs</label>
+                    <br>
+                <label><input type = "radio" name = "weight" value = "2.0">
+                    2.0 lbs</label>
+            </p>
+            <button type="button" onclick="answerWeight()">Submit</button>
+            <div id="result6"></div>
+        </div>
+
+        <div id="question7">
+            <p>How long do jaguars live?
+                <br>
+                <label><input type = "radio" name = "life" value = "4">
+                    4 years</label>
+                    <br>
+                <label><input type = "radio" name = "life" value = "7">
+                    7 years</label>
+                    <br>
+                <label><input type = "radio" name = "life" value = "13">
+                    13 years</label>
+                    <br>
+                <label><input type = "radio" name = "life" value = "19">
+                    19 years</label>
+            </p>
+            <button type="button" onclick="answerLife()">Submit</button>
+            <div id="result7"></div>
+        </div>
+
+        <div id="question8">
+            <p>What is the fastest a jaguar can run?
+                <br>
+                <label><input type = "radio" name = "speed" value = "130">
+                    130 mph</label>
+                    <br>
+                <label><input type = "radio" name = "speed" value = "60">
+                    60 mph</label>
+                    <br>
+                <label><input type = "radio" name = "speed" value = "100">
+                    100 mph</label>
+                    <br>
+                <label><input type = "radio" name = "speed" value = "80">
+                    80 mph</label>
+            </p>
+            <button type="button" onclick="answerSpeed()">Submit</button>
+            <div id="result8"></div>
+        </div>
+
+
+
+	</body>
+</html>

@@ -1,0 +1,111 @@
+#background
+{
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	position: absolute;
+}
+#white
+{
+	top: 70px;
+	left: 70px;
+	right: 70px;
+	bottom: 70px;
+	padding: 20px 20px 20px 40px;
+	background-color: white;
+	font-size: 32px;
+	border-radius: 50px;
+	z-index: 2;
+	font-family: georgia;
+	position:  absolute;
+}
+#question1
+{
+	top: 160px;
+	left: 70px;
+	right: 70px;
+	bottom: 70px;
+	padding: 20px 20px 20px 40px;
+	font-size: 20px;
+	z-index: 2;
+	font-family: georgia;
+	position:  absolute;
+}
+#question2
+{
+	top: 390px;
+	left: 70px;
+	right: 70px;
+	bottom: 70px;
+	padding: 20px 20px 20px 40px;
+	font-size: 20px;
+	z-index: 2;
+	font-family: georgia;
+	position:  absolute;
+}
+#additionalInfo
+{
+	top: 200px;
+	left: 600px;
+	width: 400px;
+	font-size: 20px;
+	z-index: 2;
+	font-family: georgia;
+	position:  absolute;
+}
+#additionalInfo1
+{
+	top: 430px;
+	left: 600px;
+	width: 400px;
+	font-size: 20px;
+	z-index: 2;
+	font-family: georgia;
+	position:  absolute;
+}
+#yearImageContainer
+{
+	top: 180px;
+	left: 850px;
+	width: 300px;
+	font-size: 20px;
+	z-index: 2;
+	position:  absolute;
+}
+#yearImage
+{
+	top: 0px;
+	left: 200px;
+	width: 300px;
+	font-size: 20px;
+	z-index: 2;
+	position:  absolute;
+}
+#algaeImageContainer
+{
+	top: 430px;
+	left: 850px;
+	width: 300px;
+	font-size: 20px;
+	z-index: 2;
+	position:  absolute;
+}
+#algaeImage
+{
+	top: 0px;
+	left: 200px;
+	width: 300px;
+	font-size: 20px;
+	z-index: 2;
+	position:  absolute;
+}
+#result
+{
+	color: green;
+}
+#result1
+{
+	color: green;
+}
