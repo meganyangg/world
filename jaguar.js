@@ -100,16 +100,8 @@ function checkAnswer(index, idx)
 
 function checkAllAnswers()
 {
-	let idx = 1;
-	for (let i=0; i<8; i++)
-	{
-		if(i == randomIndex1 || i ==randomIndex2)
-		{
-			checkAnswer(i, idx);
-			idx++;
-		}
-   }
-
+	checkAnswer(randomIndex1, 1);
+	checkAnswer(randomIndex2, 2);
 }
 
 function addQuestions()
