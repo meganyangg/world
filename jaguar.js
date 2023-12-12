@@ -84,11 +84,11 @@ function checkAnswer(index, idx)
 				console.log("questions.answer=" + questions[index].options[questions[index].answer]);
 				if (array[i].value==questions[index].options[questions[index].answer])
 				{
-                    document.getElementById("result" + idx).innerHTML =  "Correct!" + "<br>";
+                    document.getElementById("result" + idx).innerHTML =  '<h4 style="color:green;">Correct! <br></h4>';
                     document.getElementById("additionalInfo" + idx).innerHTML = questions[index].additionalInfo;
                     document.getElementById("imageContainer" + idx).innerHTML = questions[index].imageContainer;
 				} else {
-					document.getElementById("result" + idx).innerHTML =  "Incorrect :(" + "<br>";
+					document.getElementById("result" + idx).innerHTML =  '<h4 style="color:red;">Incorrect :( <br></h4>';
 					document.getElementById("additionalInfo" + idx).innerHTML = null;
 					document.getElementById("imageContainer" + idx).innerHTML =  null;
 				}
