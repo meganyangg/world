@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="jaguar.css">
+		<script src="ferret.js"></script>
+		<title>Ferret</title>
+	</head>
+	<body>
+	
+		<button id="back" onclick="goToNextPage('rocky.html')">
+			Back
+		</button>	
+        <img id="background" src="rockybg.webp" alt="rocky"/>
+
+		<div id="white">
+		<p id="title">Black-footed Ferret Quiz!</p>
+		
+		<button type="button" onclick="checkAllAnswers()">Check All Answers</button>
+
+        <div id = "question1" class="question">
+            <p><b>question1</b>  
+                <br>
+                <input type = "radio" id = "q1o1" name = "radio1" value = "option1">
+                <label for= "q1o1"> option1</label>
+                    <br>
+                <input type = "radio" id = "q1o2" name = "radio1" value = "option2">
+                <label for= "q1o2"> option2</label>
+                    <br>
+                <input type = "radio" id = "q1o3" name = "radio1" value = "option3">
+                <label for= "q1o3"> option3</label>
+                    <br>
+                <input type = "radio" id = "q1o4" name = "radio1" value = "option4">
+                <label for= "q1o4"> option4</label>
+            </p>
+            <div id="result1"></div>
+        </div>	
+
+        <div id="additionalInfo1"></div>
+		<div id="imageContainer1"></div>
+	
+
+        <div id = "question2" class="question">
+            <p><b>question2</b>  
+                <br>
+                <input type = "radio" id = "q2o1" name = "radio2" value = "option1">
+                <label for= "q2o1"> option1</label>
+                    <br>
+                <input type = "radio" id = "q2o2" name = "radio2" value = "option2">
+                <label for= "q2o2"> option2</label>
+                    <br>
+                <input type = "radio" id = "q2o3" name = "radio2" value = "option3">
+                <label for= "q2o3"> option3</label>
+                    <br>
+                <input type = "radio" id = "q2o4" name = "radio2" value = "option4">
+                <label for= "q2o4"> option4</label>
+            </p>
+            <div id="result2"></div>
+        </div>	
+
+        <div id="additionalInfo2"></div>
+		<div id="imageContainer2"></div>
+
+
+	</body>
+</html>
