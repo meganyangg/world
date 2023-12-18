@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="orca.css">
+		<script src="orca.js"></script>
+		<script src="index.js"></script>
+		<title>Orca</title>
+	</head>
+	<body>
+		<button id="back" onclick="goToNextPage('antartica.html')">
+			Back
+		</button>
+
+		<img id="background" src="background.jpeg" alt="Antarctic Desert"/>
+
+		<!--https://www.geeksforgeeks.org/how-to-create-popup-box-using-html-and-css/-->
+        <button id = "myButton">Directions!</button>
+        <div id="myPopup" class="popup">
+            <div class="popup-content">
+                <h1 style="color:rgb(77, 105, 77);">
+                    Directions!
+                </h1>
+                <p id = "goal"> Goal of the game is for your animal to reach the green finish line! Everytime you press check all answers, the animal starts from the starting line, so make sure not to tire it out. Every question you get right moves you from checkpoint to checkpoint, but your checkpoint positioning will never reset! </p>
+                <ol>
+                    <li>Choose your answers!</li>
+                    <li>Press check all answers.</li>
+                    <li>If you get an answer correct, an explanation will show up, and the animal will move.</li>
+                    <li>Do the quiz until you get both answers correct and reload for new questions!</li>
+                </ol>
+                <button id="closePopup">
+                        Close
+                </button>
+            </div>
+        </div>
+
+        <div id="white">
+        <div>
+            <p id="title">Orca Quiz!</p>
+            <div id ="myContainer">
+                <!--https://www.express.co.uk/news/nature/600319/Pure-joy-Beautiful-moment-baby-orca-leaps-into-the-air-with-jubilation-->
+                <div ><img id ="myAnimation" src="orcaAnimate.png" alt="orca"/></div>
+            </div>
+        </div>
+    
+        <div>
+            <button type="button" id = "check" onclick="checkAllAnswers()">Check All Answers</button>
+            <img id ="score" src="score.png" alt="score"/>
+        </div>
+        <br>
+
+        <div id = "question1" class="question">
+            <p><b>question1</b>  
+                <br>
+                <input type = "radio" id = "q1o1" name = "radio1" value = "option1">
+                <label for= "q1o1"> option1</label>
+                    <br>
+                <input type = "radio" id = "q1o2" name = "radio1" value = "option2">
+                <label for= "q1o2"> option2</label>
+                    <br>
+                <input type = "radio" id = "q1o3" name = "radio1" value = "option3">
+                <label for= "q1o3"> option3</label>
+                    <br>
+                <input type = "radio" id = "q1o4" name = "radio1" value = "option4">
+                <label for= "q1o4"> option4</label>
+            </p>
+            <div id="result1"></div>
+        </div>	
+
+        <div id="additionalInfo1"></div>
+        <div id="imageContainer1"></div>
+
+
+        <div id = "question2" class="question">
+            <p><b>question2</b>  
+                <br>
+                <input type = "radio" id = "q2o1" name = "radio2" value = "option1">
+                <label for= "q2o1"> option1</label>
+                    <br>
+                <input type = "radio" id = "q2o2" name = "radio2" value = "option2">
+                <label for= "q2o2"> option2</label>
+                    <br>
+                <input type = "radio" id = "q2o3" name = "radio2" value = "option3">
+                <label for= "q2o3"> option3</label>
+                    <br>
+                <input type = "radio" id = "q2o4" name = "radio2" value = "option4">
+                <label for= "q2o4"> option4</label>
+            </p>
+            <div id="result2"></div>
+        </div>	
+
+        <div id="additionalInfo2"></div>
+        <div id="imageContainer2"></div>
+
+	</body>
+</html>

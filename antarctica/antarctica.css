@@ -1,0 +1,79 @@
+#background
+{
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	position: absolute;
+}
+#back
+{
+	left: 10px;
+	top: 10px;
+	z-index: 20;
+	position: absolute;
+}
+#penguin
+{
+	left: 300px;
+	top: 325px;
+	width: 150px;
+	z-index: 2;
+	position: absolute;
+}
+#albatross
+{
+	left: 470px;
+	top: 30px;
+	width: 220px;
+	z-index: 2;
+	position: absolute;
+}
+#orca
+{
+	left: 1000px;
+	top: 450px;
+	width: 300px;
+	z-index: 2;
+	position: absolute;
+}
+#orcabutton
+{
+	width: 120px;
+	left: 1100px;
+	top: 530px;
+	background-color: transparent;
+	font-family: garamond;
+	color: white;
+	border: 0px;
+	font-size: 32px;
+	z-index: 4;
+	position: absolute;
+}
+#penguinbutton
+{
+	width: 120px;
+	left: 300px;
+	top: 370px;
+	background-color: transparent;
+	font-family: garamond;
+	color: white;
+	border: 0px;
+	font-size: 32px;
+	z-index: 4;
+	position: absolute;
+}
+#albatrossbutton
+{
+	width: 120px;
+	left: 500px;
+	top: 100px;
+	background-color: transparent;
+	font-family: garamond;
+	color: white;
+	border: 0px;
+	font-size: 32px;
+	z-index: 4;
+	position: absolute;
+}

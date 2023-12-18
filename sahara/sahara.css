@@ -1,0 +1,80 @@
+#background
+{
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	position: absolute;
+}
+#back
+{
+	left: 10px;
+	top: 10px;
+	z-index: 2;
+	position: absolute;
+
+}
+#antelope
+{
+	left: 800px;
+	top: 200px;
+	width: 600px;
+	z-index: 2;
+	position: absolute;
+}
+#cheetah
+{
+	left: 200px;
+	top: 250px;
+	width: 400px;
+	z-index: 2;
+	position: absolute;
+}
+#ostrich
+{
+	left: 600px;
+	top: 150px;
+	width: 400px;
+	z-index: 2;
+	position: absolute;
+}
+#antelopebutton
+{
+	width: 120px;
+	left: 1150px;
+	top: 360px;
+	background-color: transparent;
+	font-family: garamond;
+	color: white;
+	border: 0px;
+	font-size: 32px;
+	z-index: 4;
+	position: absolute;
+}
+#cheetahbutton
+{
+	width: 120px;
+	left: 250px;
+	top: 330px;
+	background-color: transparent;
+	font-family: garamond;
+	color: white;
+	border: 0px;
+	font-size: 32px;
+	z-index: 4;
+	position: absolute;
+}
+#ostrichbutton
+{
+	width: 120px;
+	left: 770px;
+	top: 260px;
+	background-color: transparent;
+	font-family: garamond;
+	color: white;
+	border: 0px;
+	font-size: 32px;
+	z-index: 4;
+	position: absolute;
+}
