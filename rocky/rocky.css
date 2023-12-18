@@ -1,0 +1,101 @@
+#background
+{
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	position: absolute;
+}
+#back
+{
+	left: 10px;
+	top: 10px;
+	z-index: 2;
+	position: absolute;
+
+}
+#wolf
+{
+	left: 20px;
+	top: 400px;
+	width: 400px;
+	z-index: 2;
+	position: absolute;
+}
+#ferret
+{
+	left: 1000px;
+	top: 400px;
+	width: 200px;
+	z-index: 2;
+	position: absolute;
+}
+#owl
+{
+	left: 810px;
+	top: 30px;
+	width: 300px;
+	z-index: 2;
+	position: absolute;
+}
+#gunnison
+{
+	left: 60px;
+	top: 300px;
+	width: 300px;
+	z-index: 2;
+	position: absolute;
+}
+#gunnisonbutton
+{
+	width: 120px;
+	left: 170px;
+	top: 420px;
+	background-color: transparent;
+	font-family: garamond;
+	color: white;
+	border: 0px;
+	font-size: 32px;
+	z-index: 4;
+	position: absolute;
+}
+#wolfbutton
+{
+	width: 120px;
+	left: 160px;
+	top: 470px;
+	background-color: transparent;
+	font-family: garamond;
+	color: white;
+	border: 0px;
+	font-size: 32px;
+	z-index: 4;
+	position: absolute;
+}
+#ferretbutton
+{
+	width: 120px;
+	left: 1040px;
+	top: 465px;
+	background-color: transparent;
+	font-family: garamond;
+	color: white;
+	border: 0px;
+	font-size: 32px;
+	z-index: 4;
+	position: absolute;
+}
+#owlbutton
+{
+	width: 120px;
+	left: 870px;
+	top: 120px;
+	background-color: transparent;
+	font-family: garamond;
+	color: white;
+	border: 0px;
+	font-size: 32px;
+	z-index: 4;
+	position: absolute;
+}

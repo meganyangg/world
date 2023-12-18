@@ -1,0 +1,174 @@
+#background
+{
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	position: absolute;
+}
+
+#back
+{
+    top: 10px;
+	left: 10px;
+    z-index: 10;
+    position: absolute;
+}
+#additionalInfo1
+{
+	top: 140px;
+	left: 600px;
+	width: 400px;
+	font-size: 20px;
+	z-index: 5;
+	font-family: georgia;
+	position:  absolute;
+}
+#additionalInfo2
+{
+	top: 380px;
+	left: 600px;
+	width: 400px;
+	font-size: 20px;
+	z-index: 5;
+	font-family: georgia;
+	position:  absolute;
+}
+#imageContainer1
+{
+	top: 130px;
+	left: 1050px;
+	width: 300px;
+	font-size: 20px;
+	z-index: 5;
+	position:  absolute;
+}
+
+#imageContainer2
+{
+	top: 380px;
+	left: 1050px;
+	width: 300px;
+	font-size: 20px;
+	z-index: 5;
+	position:  absolute;
+}
+
+#white
+{
+	top: 70px;
+	left: 70px;
+	right: 70px;
+	bottom: 70px;
+	padding: 20px 20px 20px 40px;
+	background-color: white;
+	font-size: 32px;
+	border-radius: 50px;
+	z-index: 3;
+	font-family: georgia;
+	position:  absolute;
+}
+
+.question
+{
+	top: 160px;
+	left: 70px;
+	padding: 0px 20px 0px 40px;
+	font-size: 20px;
+	z-index: 4;
+	width: 400px;
+	font-family: georgia;
+    position: static;
+}
+#answer
+{
+    top: 170px;
+	left: 120px;
+    z-index: 10;
+    position: absolute;
+}
+
+#myContainer {
+	width: 400px;
+	height: 20px;
+	position: relative;
+	background: transparent;
+}
+  
+#myAnimation {
+	left: 150px;
+	width: 50px;
+	z-index: 100;
+	position: absolute;
+}
+
+#title{
+	margin: 20px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#myButton 
+{
+	top: 40px;
+	left: 10px;
+    z-index: 10;
+    position: absolute;
+}
+
+.popup 
+{
+	left: 0;
+	top: 0;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	z-index: 18;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.4);
+	display: none;
+}
+
+.popup-content 
+{
+	background-color: white;
+	margin: 10% auto;
+	padding: 20px;
+	border: 1px solid #888888;
+	z-index: 18;
+	width: 30%;
+	/*font-weight: bolder;*/
+}
+
+#goal
+{
+	font-weight: bolder;
+}
+
+.popup-content button 
+{
+	display: block;
+	margin: 0 auto;
+}
+
+.show 
+{
+	display: block;
+}
+
+#score
+{
+	width: 1050px;
+	left: 180px;
+	position: absolute;
+	z-index: 90;
+}
+
+#check
+{
+	top:98px;
+	height: 30px;
+	z-index: 91;
+	position: absolute;
+}
