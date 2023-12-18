@@ -1,0 +1,93 @@
+#background
+{
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	position: absolute;
+}
+
+#back
+{
+	left: 10px;
+	top: 10px;
+	z-index: 20;
+	position: absolute;
+}
+#koala
+{
+	left: 60px;
+	top: 100px;
+    width: 250px;
+    transform: rotate(-25deg); /* https://www.geeksforgeeks.org/how-to-rotate-image-in-html/ */
+	z-index: 2;
+	position: absolute;
+}
+#glider
+{
+	left: 1000px;
+	top: 300px;
+    width: 400px;
+    transform: rotate(90deg); /* https://www.geeksforgeeks.org/how-to-rotate-image-in-html/ */
+	z-index: 2;
+	position: absolute;
+}
+#wombat
+{
+	left: 500px;
+	top: 550px;
+    width: 300px;
+	z-index: 2;
+	position: absolute;
+}
+#possum
+{
+	left: 900px;
+	top: 550px;
+    width: 300px;
+	z-index: 2;
+	position: absolute;
+}
+
+#koalaButton
+{
+	width: 120px;
+	left: 100px;
+	top: 210px;
+	background-color: transparent;
+	font-family: garamond;
+	color: white;
+	border: 0px;
+	font-size: 32px;
+	z-index: 6;
+	position: absolute;
+}
+
+#gliderButton
+{
+	width: 120px;
+	left: 1150px;
+	top: 400px;
+	background-color: transparent;
+	font-family: garamond;
+	color: white;
+	border: 0px;
+	font-size: 32px;
+	z-index: 6;
+	position: absolute;
+}
+
+#wombatButton
+{
+	width: 120px;
+	left: 620px;
+	top: 620px;
+	background-color: transparent;
+	font-family: garamond;
+	color: white;
+	border: 0px;
+	font-size: 32px;
+	z-index: 6;
+	position: absolute;
+}

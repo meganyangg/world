@@ -1,0 +1,80 @@
+#background
+{
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	position: absolute;
+}
+#back
+{
+	left: 10px;
+	top: 10px;
+	z-index: 2;
+	position: absolute;
+
+}
+#yak
+{
+	left: 1000px;
+	top: 150px;
+	width: 250px;
+	z-index: 2;
+	position: absolute;
+}
+#marmot
+{
+	left: 800px;
+	top: 500px;
+	width: 300px;
+	z-index: 2;
+	position: absolute;
+}
+#redpanda
+{
+	left: 100px;
+	top: 510px;
+	width: 200px;
+	z-index: 2;
+	position: absolute;
+}
+#yakbutton
+{
+	width: 220px;
+	left: 1040px;
+	top: 280px;
+	background-color: transparent;
+	font-family: garamond;
+	color: white;
+	border: 0px;
+	font-size: 32px;
+	z-index: 4;
+	position: absolute;
+}
+#marmotbutton
+{
+	width: 120px;
+	left: 900px;
+	top: 630px;
+	background-color: transparent;
+	font-family: garamond;
+	color: white;
+	border: 0px;
+	font-size: 32px;
+	z-index: 4;
+	position: absolute;
+}
+#redpandabutton
+{
+	width: 220px;
+	left: 100px;
+	top: 600px;
+	background-color: transparent;
+	font-family: garamond;
+	color: white;
+	border: 0px;
+	font-size: 32px;
+	z-index: 4;
+	position: absolute;
+}
